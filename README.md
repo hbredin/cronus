@@ -64,3 +64,7 @@ To run it in production, deploy a Kubernetes pod or replication controller.
 
 * Adding new jobs requires rebuilding your image, deploying the image, and recreating the cronus container in the cluster
 * Replicating the container does not increase cluster tolerance to container failures, cronus is not a distributed system
+
+## License
+
+[MIT License](LICENSE)
