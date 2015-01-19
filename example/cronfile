@@ -1,0 +1,2 @@
+* * * * * /bin/echo "heartbeat" >> /var/log/cron.log
+* * * * * curl --get http://192.168.59.123:8080
